@@ -122,7 +122,8 @@ int main(void)
   MX_USB_PCD_Init();
   MX_ICACHE_Init();
   /* USER CODE BEGIN 2 */
-
+  test_callbacks();
+  test_main();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -132,7 +133,6 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	test_main();
   }
   /* USER CODE END 3 */
 }
