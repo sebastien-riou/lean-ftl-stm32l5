@@ -123,7 +123,7 @@ int main(void)
   MX_ICACHE_Init();
   /* USER CODE BEGIN 2 */
   test_callbacks();
-  test_main();
+  test_main(0,NULL,NULL);
   /* USER CODE END 2 */
 
   /* Infinite loop */
